@@ -29,6 +29,7 @@
     "typescript": "^5.3.2"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "kaboom": "^3000.1.17"
   }
 }
