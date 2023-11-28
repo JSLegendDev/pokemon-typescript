@@ -30,37 +30,4 @@ export default function loadAssets(k: KaboomCtx) {
     },
   });
   k.loadSprite("battle-background", "./assets/battleBackground.png");
-  k.loadSpriteAtlas("./assets/tiles.png", {
-    tile: {
-      x: 0,
-      y: 0,
-      width: 128,
-      height: 128,
-      sliceX: 8,
-      sliceY: 8,
-      anims: {
-        "bigtree-pt1": 1,
-        "bigtree-pt2": 2,
-        "bigtree-pt3": 9,
-        "bigtree-pt4": 10,
-        "grass-m": 14,
-        "grass-tl": 17,
-        "grass-tm": 18,
-        "grass-tr": 19,
-        "grass-l": 25,
-        "grass-r": 27,
-        "grass-bl": 33,
-        "grass-mb": 34,
-        "grass-br": 35,
-        "tree-t": 4,
-        "tree-b": 12,
-        "grass-water": 20,
-        "sand-1": 6,
-        "ground-l": 41,
-        "ground-m": 42,
-        "ground-r": 43,
-        "rock-water": 60,
-      },
-    },
-  });
 }
